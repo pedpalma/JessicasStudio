@@ -10,7 +10,7 @@ header{
     background-color: rgb(241, 170, 243);
     padding: 27px 0 27px 32px;
     background: rgb(241,170,243);
-    background: linear-gradient(90deg, rgba(241,170,243,1) 0%, rgba(152,32,175,1) 41%, rgba(96,9,98,1) 100%);
+    background: linear-gradient(90deg, rgba(241,170,243,1) 0%, rgb(155, 48, 177) 41%, rgb(134, 22, 128) 100%);
 }
 .logo{
     width: 11%;
@@ -20,7 +20,7 @@ header{
 nav{
     color: whitesmoke;
     font-size: 23;
-    right: 70;
+    right: 70; 
     top: 60px;
     position: absolute;
 }
@@ -35,4 +35,23 @@ nav li{
 .banner{
     height: 40%;
     width: 100%;
+}
+
+/*Estilização da sessão SOBRE NÓS*/
+.sobre_nos {
+    margin: 0;
+    text-align: justify;
+    width: 60%;
+    margin-left: 20%;
+}
+
+.img_sobrenos {
+    width: 28%;
+    float: left;
+    margin-right: 20px;
+}
+
+.titulo_sobrenos {
+    text-align: center;
+    clear: left;
 }
