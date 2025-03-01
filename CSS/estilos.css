@@ -9,9 +9,10 @@ body{
 header{
     background-color: rgb(241, 170, 243);
     padding: 27px 0 27px 32px;
-    background: rgb(241,170,243);
-    background: linear-gradient(90deg, rgba(241,170,243,1) 0%, rgb(155, 48, 177) 41%, rgb(134, 22, 128) 100%);
+    background: rgb(218,106,255);
+background: linear-gradient(180deg, rgba(218,106,255,0.8939950980392157) 47%, rgba(205,142,213,0.8687850140056023) 100%);
 }
+
 .logo{
     width: 11%;
     border-radius: 100%;
@@ -43,6 +44,7 @@ nav li{
     text-align: justify;
     width: 60%;
     margin-left: 20%;
+    
 }
 
 .img_sobrenos {
@@ -54,4 +56,24 @@ nav li{
 .titulo_sobrenos {
     text-align: center;
     clear: left;
+}
+
+/*Estilização da sessão NOSSO ESTABELECIMENTO*/
+.mapaGeral {
+}
+
+.mapaGeral p {
+    text-align: center;
+}
+
+.mapa {
+    margin-left:27%;
+}
+
+.nossos_servicos {
+    margin: 0;
+    text-align: justify;
+    width: 60%;
+    margin-left: 35%;
+
 }
