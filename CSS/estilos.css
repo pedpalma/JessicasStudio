@@ -1,39 +1,42 @@
 /*Estilização do BODY*/
-body{
+body {
     margin: 0;
     border: 0;
     font-family: 'Calibri', 'Arial';
 }
 
 /*Estilização do HEADER*/
-header{
+header {
     background-color: rgb(241, 170, 243);
-    padding: 27px 0 27px 32px;
-    background: rgb(218,106,255);
-background: linear-gradient(180deg, rgba(218,106,255,0.8939950980392157) 47%, rgba(205,142,213,0.8687850140056023) 100%);
+    padding: 0px 0 0px 32px;
+    background: rgb(66,33,0);
+    background: linear-gradient(315deg, rgba(66,33,0,1) 35%, rgba(102,51,0,1) 48%, rgba(150,75,0,1) 58%, rgba(199,118,44,1) 72%, rgba(222,146,79,1) 100%);
+}    
+.logo {
+        width: 15%;
+        border-radius: 100%;
 }
 
-.logo{
-    width: 11%;
-    border-radius: 100%;
-}
 /*Estilização do MENU do site*/
-nav{
+nav {
     color: whitesmoke;
-    font-size: 23;
-    right: 70; 
-    top: 60px;
+    font-size: 25;
+    right: 70;
+    top: 95px;
     position: absolute;
 }
-nav li{
+
+nav li {
     display: inline;
     margin-right: 35px;
 }
+
 /*Estilização da DIV do header*/
 .divHeader {
     position: relative;
 }
-.banner{
+
+.banner {
     height: 40%;
     width: 100%;
 }
@@ -44,7 +47,6 @@ nav li{
     text-align: justify;
     width: 60%;
     margin-left: 20%;
-    
 }
 
 .img_sobrenos {
@@ -59,15 +61,12 @@ nav li{
 }
 
 /*Estilização da sessão NOSSO ESTABELECIMENTO*/
-.mapaGeral {
-}
-
 .mapaGeral p {
     text-align: center;
 }
 
 .mapa {
-    margin-left:27%;
+    margin-left: 27%;
 }
 
 .nossos_servicos {
@@ -75,5 +74,16 @@ nav li{
     text-align: justify;
     width: 60%;
     margin-left: 35%;
-
 }
+
+.titulo_produtos {
+    text-align: center;
+    clear: left;
+}
+
+.img_produtos {
+    width: 17%;
+    float: right;
+    margin-right: 35%;
+}
+
