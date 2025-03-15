@@ -1,16 +1,20 @@
+
+
 /*Estilização do BODY*/
 body {
     margin: 0;
     border: 0;
     font-family: 'Calibri', 'Arial';
+    background: rgb(91,31,0);
+    background: linear-gradient(0deg, rgba(91,31,0,1) 0%, rgba(102,40,10,1) 9%, rgba(113,49,18,1) 18%, rgba(124,59,26,1) 24%, rgba(135,68,33,1) 32%, rgba(154,88,51,0.9612219887955182) 42%, rgba(180,118,79,1) 47%, rgba(205,150,108,0.9864320728291317) 53%, rgba(230,182,139,0.9864320728291317) 60%, rgba(255,215,171,0.9640231092436975) 68%, rgba(255,228,196,1) 77%);
 }
 
 /*Estilização do HEADER*/
 header {
     background-color: rgb(241, 170, 243);
     padding: 0px 0 0px 32px;
-    background: rgb(66,33,0);
-    background: linear-gradient(315deg, rgba(66,33,0,1) 35%, rgba(102,51,0,1) 48%, rgba(150,75,0,1) 58%, rgba(199,118,44,1) 72%, rgba(222,146,79,1) 100%);
+    background: rgb(91,31,0);
+    background: linear-gradient(309deg, rgba(91,31,0,1) 0%, rgba(102,40,10,1) 12%, rgba(113,49,18,1) 22%, rgba(124,59,26,1) 30%, rgba(135,68,33,1) 42%, rgba(154,88,51,0.9612219887955182) 55%, rgba(180,118,79,1) 62%, rgba(205,150,108,0.9864320728291317) 69%, rgba(230,182,139,0.9864320728291317) 77%);
 }    
 .logo {
         width: 15%;
@@ -69,21 +73,64 @@ nav li {
     margin-left: 27%;
 }
 
-.nossos_servicos {
-    margin: 0;
-    text-align: justify;
-    width: 60%;
+.nossosprodutos{
+    padding: 2%;
+}
+
+.div_nossosprodutos{
+    width: 70%;
     margin-left: 35%;
 }
 
-.titulo_produtos {
-    text-align: center;
-    clear: left;
+.img_nossosprodutos{
+    width: 16%;
+    border-radius: 8px;
+    box-shadow: 10px 10px 5px 0px #000000;
+    opacity: 1;
+    transition: 400ms;
 }
 
-.img_produtos {
-    width: 17%;
-    float: right;
-    margin-right: 35%;
+.img_nossosprodutos:hover{
+    opacity: 0.5;
 }
 
+.lista_nossosprodutos{
+    width: 20%;
+    display: inline-block;
+    vertical-align: top;
+    list-style: none;
+}
+
+.lista_nossosprodutos li{
+    line-height: 2;
+}
+
+.lista_nossosprodutos li:before{
+    content: "★ ";
+}
+
+/*Video*/
+.div_video {
+    border-radius: 12px;
+    width: 30%;
+    margin-left: 35%;
+    padding: 5% 0 0 0;
+}
+
+/*Rodapé*/
+.logo_footer {
+    width: 11%;
+    padding-left: 2%;
+}
+footer p{
+    font-weight: bold;
+    color: #ffffff;
+    display: inline-block;
+    text-align: right;
+    width: 99%;
+    font-size: 19px;
+}
+
+footer{
+    background: url("img/footerfundo.png");
+}
