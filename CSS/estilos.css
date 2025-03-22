@@ -4,17 +4,18 @@
 body {
     margin: 0;
     border: 0;
+    padding: 0;
     font-family: 'Calibri', 'Arial';
-    background: rgb(91,31,0);
-    background: linear-gradient(0deg, rgba(91,31,0,1) 0%, rgba(102,40,10,1) 9%, rgba(113,49,18,1) 18%, rgba(124,59,26,1) 24%, rgba(135,68,33,1) 32%, rgba(154,88,51,0.9612219887955182) 42%, rgba(180,118,79,1) 47%, rgba(205,150,108,0.9864320728291317) 53%, rgba(230,182,139,0.9864320728291317) 60%, rgba(255,215,171,0.9640231092436975) 68%, rgba(255,228,196,1) 77%);
+    background-color: #fadec3;
+    overflow-x: hidden;
 }
 
 /*Estilização do HEADER*/
 header {
+    width: 100%;
     background-color: rgb(241, 170, 243);
     padding: 0px 0 0px 32px;
-    background: rgb(91,31,0);
-    background: linear-gradient(309deg, rgba(91,31,0,1) 0%, rgba(102,40,10,1) 12%, rgba(113,49,18,1) 22%, rgba(124,59,26,1) 30%, rgba(135,68,33,1) 42%, rgba(154,88,51,0.9612219887955182) 55%, rgba(180,118,79,1) 62%, rgba(205,150,108,0.9864320728291317) 69%, rgba(230,182,139,0.9864320728291317) 77%);
+    background: #9a5833;
 }    
 .logo {
         width: 15%;
@@ -42,7 +43,7 @@ nav li {
 
 .banner {
     height: 40%;
-    width: 100%;
+    width: 100vw;
 }
 
 /*Estilização da sessão SOBRE NÓS*/
@@ -78,8 +79,10 @@ nav li {
 }
 
 .div_nossosprodutos{
-    width: 70%;
-    margin-left: 35%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
 }
 
 .img_nossosprodutos{
@@ -120,7 +123,17 @@ nav li {
 /*Rodapé*/
 .logo_footer {
     width: 11%;
-    padding-left: 2%;
+    margin-left: 45%;
+}
+
+footer{
+    background: url("../img/banner.png");
+    background-size: cover; 
+    background-position: center;
+    background-color: rgba(0, 0, 0, 0.2);
+    background-blend-mode: darken;
+    padding: 30px 10px 10px 0;
+    width: 100%;
 }
 footer p{
     font-weight: bold;
@@ -131,6 +144,21 @@ footer p{
     font-size: 19px;
 }
 
-footer{
-    background: url("img/footerfundo.png");
+/* Estilização dos icones do WhatsApp e Instagram */
+i{
+    color: white;
+}
+
+/* Estilização do scroll */
+html ::-webkit-scrollbar {
+    width: 10px;
+}
+
+html ::-webkit-scrollbar-thumb {
+    border-radius: 50px;
+    background: #ffffff;
+}
+
+html ::-webkit-scrollbar-track {
+    background: #fadec3;
 }
