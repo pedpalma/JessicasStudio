@@ -3,22 +3,19 @@
 /*Estilização do BODY*/
 body {
     margin: 0;
-    border: 0;
-    padding: 0;
     font-family: 'Calibri', 'Arial';
-    background-color: #fadec3;
+    background-color: #fdf6ef;
     overflow-x: hidden;
 }
 
 /*Estilização do HEADER*/
 header {
     width: 100%;
-    background-color: rgb(241, 170, 243);
     padding: 0px 0 0px 32px;
     background: #9a5833;
 }    
 .logo {
-        width: 15%;
+        width: 11%;
         border-radius: 100%;
 }
 
@@ -27,13 +24,13 @@ nav {
     color: whitesmoke;
     font-size: 25;
     right: 70;
-    top: 95px;
+    top: 48px;
     position: absolute;
 }
 
 nav li {
     display: inline;
-    margin-right: 35px;
+    margin-right: 48px;
 }
 
 /*Estilização da DIV do header*/
@@ -71,7 +68,7 @@ nav li {
 }
 
 .mapa {
-    margin-left: 27%;
+    margin-left: 20%;
 }
 
 .nossosprodutos{
@@ -109,7 +106,7 @@ nav li {
 }
 
 .lista_nossosprodutos li:before{
-    content: "★ ";
+    content: "🔹";
 }
 
 /*Video*/
@@ -120,21 +117,18 @@ nav li {
     padding: 5% 0 0 0;
 }
 
-/*Rodapé*/
-.logo_footer {
+/* Estilizando o FOOTER. */
+.logo_footer{
     width: 11%;
     margin-left: 45%;
 }
 
 footer{
     background: url("../img/banner.png");
-    background-size: cover; 
-    background-position: center;
-    background-color: rgba(0, 0, 0, 0.2);
-    background-blend-mode: darken;
-    padding: 30px 10px 10px 0;
-    width: 100%;
+    background-color: rgba(0, 0, 0, 0.3);
+    background-blend-mode: darken; 
 }
+
 footer p{
     font-weight: bold;
     color: #ffffff;

@@ -1,0 +1,142 @@
+/* Estilização do BODY */
+body{
+    /* Remove a margem dos lados do cabeçalho. */
+    margin: 0;
+    font-family: 'Calibri', 'Arial';
+    background-color: #fdf6ef;
+
+}
+
+
+/*Estilização do HEADER*/
+header{
+    /* Aplica uma cor ao fundo do header e faz ser 100%. */
+    background: #9a5833;
+}
+
+.divheader{
+    position: relative;
+}
+
+/* Estilização da LOGO */
+.logo{
+    border-radius: 10%;
+    width: 8%;
+    margin-left: 12%;
+}
+
+/* Estilização do MENU */
+nav{
+    color: aliceblue;
+    position: absolute;
+    right: 70;
+    top: 55px;
+    font-size: 25;
+
+}
+
+nav li{
+    display: inline;
+    margin-right: 48px;
+}
+
+/* Estilizando o conteúdo */
+.produtos-titulo{
+    font-size: 29;
+    font-weight: bold;
+    color: #9a5833;
+    list-style: none;
+}
+
+.produtos-item:before{
+    content: "🍔";
+}
+
+.texto-produto{
+    padding-left: 5%;
+    font-size: 18;
+    font-weight: bold;
+}
+
+/* Estilizando o FOOTER. */
+.logo_footer{
+    width: 11%;
+    margin-left: 45%;
+}
+
+footer{
+    background: url("../img/banner.png");
+    background-color: rgba(0, 0, 0, 0.3);
+    background-blend-mode: darken; 
+}
+
+footer p{
+    font-weight: bold;
+    color: #ffffff;
+    display: inline-block;
+    text-align: right;
+    width: 99%;
+    font-size: 19px;
+}
+
+/* Estilizando o COTAINER */
+.container{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20PX;
+    padding-bottom: 20PX;
+}
+
+/* Estilização dos CARDS */
+.card{
+    background: rgb(248, 231, 213);
+    width: 360px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    padding: 20px;
+    text-align: center;
+    transition: transform 0.3s ease-in-out;
+}
+
+.card:hover{
+    transform: scale(1.05);
+}
+
+.img-card{
+    width: 90%;
+    border-radius: 10px;
+}
+
+.card h2{
+    margin: 10px 0;
+}
+
+.preco{
+    font-size: 15;
+    font-weight: bold;
+    color: black;
+    margin: 10px 0;
+}
+
+
+
+/* Estilização dos icones do WhatsApp e Instagram */
+i{
+    color: white;
+}
+
+/* Estilização do scroll */
+html ::-webkit-scrollbar {
+    width: 10px;
+}
+
+html ::-webkit-scrollbar-thumb {
+    border-radius: 50px;
+    background: #ffffff;
+}
+
+html ::-webkit-scrollbar-track {
+    background: #fadec3;
+}
+
